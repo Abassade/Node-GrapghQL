@@ -14,7 +14,7 @@ function union(setA, setB) {
     for (let elem of setB) {
         _union.add(elem);
     }
-    return _union;
+    return [..._union];
 }
 
 function intersection(setA, setB) {
@@ -24,7 +24,7 @@ function intersection(setA, setB) {
             _intersection.add(elem);
         }
     }
-    return _intersection;
+    return [..._intersection];
 }
 
 function symmetricDifference(setA, setB) {
@@ -36,7 +36,7 @@ function symmetricDifference(setA, setB) {
             _difference.add(elem);
         }
     }
-    return _difference;
+    return [..._difference];
 }
 
 function difference(setA, setB) {
@@ -44,7 +44,7 @@ function difference(setA, setB) {
     for (let elem of setB) {
         _difference.delete(elem);
     }
-    return _difference;
+    return [..._difference];
 }
 
 //Samples
