@@ -1,0 +1,20 @@
+{
+  "name": "Node-GrapghQL",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abassade/Node-GrapghQL.git"
+  },
+  "keywords": [],
+  "author": "Abass Ade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abassade/Node-GrapghQL/issues"
+  },
+  "homepage": "https://github.com/Abassade/Node-GrapghQL#readme"
+}
